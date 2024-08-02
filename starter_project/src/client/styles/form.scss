@@ -1,0 +1,63 @@
+form {
+    border: 1px solid #545454;
+    border-radius: 3px;
+    padding: 40px;
+}
+
+input {
+    padding: 5px 20px;
+    width: 100%;
+    line-height: 16px;
+    margin: 10px 0;
+}
+#results {
+    background-color: #f9f9f9; /* Light grey background */
+    border: 1px solid #ddd; /* Light grey border */
+    border-radius: 8px; /* Rounded corners */
+    padding: 20px; /* Padding inside the div */
+    margin: 20px 0; /* Margin outside the div */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Subtle shadow */
+    font-family: Arial, sans-serif; /* Font family */
+    color: #333; /* Text color */
+    max-width: 600px; /* Maximum width */
+    margin-left: auto; /* Center align */
+    margin-right: auto; /* Center align */
+}
+
+#results h2 {
+    color: #007BFF; /* Blue color for headings */
+    margin-bottom: 10px; /* Space below headings */
+}
+
+#results p {
+    line-height: 1.6; /* Line height for better readability */
+    margin-bottom: 10px; /* Space below paragraphs */
+}
+
+#results table {
+    width: 100%; /* Full width */
+    border-collapse: collapse; /* Remove space between cells */
+    margin-top: 10px; /* Space above the table */
+}
+
+#results table, #results th, #results td {
+    border: 1px solid #ddd; /* Light grey border */
+}
+
+#results th, #results td {
+    padding: 12px; /* Padding inside cells */
+    text-align: left; /* Left align text */
+}
+
+#results th {
+    background-color: #f2f2f2; /* Light grey background for header */
+    color: #333; /* Text color for header */
+}
+
+#results tr:nth-child(even) {
+    background-color: #f9f9f9; /* Light grey background for even rows */
+}
+
+#results tr:hover {
+    background-color: #f1f1f1; /* Slightly darker grey on hover */
+}
